@@ -7,6 +7,7 @@ pipeline {
                 sh 'docker run hello-world'
                 sh 'echo triggred'
                 sh 'echo test'
+                sh 'echo sucess'
             }
         }
     }
