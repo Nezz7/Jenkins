@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
+                sh 'echo $USER'
                 sh 'docker run hello-world'
                 sh 'node --version'
             }
