@@ -8,7 +8,7 @@ pipeline {
                 sh 'echo triggred'
                 sh 'echo test'
                 sh 'echo sucess'
-                sh 'echo go'
+                sh 'echo go 123'
             }
         }
     }
