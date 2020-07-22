@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo $USER'
                 sh 'docker run hello-world'
-                sh 'node --version'
+                sh 'docker run node'
             }
         }
     }
