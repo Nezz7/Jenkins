@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'echo $USER'
                 sh 'docker run hello-world'
+                sh 'echo triggred'
             }
         }
     }
